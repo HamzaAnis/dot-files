@@ -1,0 +1,5 @@
+[user]
+	name = Hamza Anis
+	email = hamzaanis9514@gmail.com
+[core]
+	excludesfile = ~/.gitignore
