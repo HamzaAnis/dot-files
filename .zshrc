@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:~/go/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/macbookpro/.oh-my-zsh"
@@ -18,7 +18,11 @@ export ZSH="/Users/macbookpro/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-POWERLEVEL9K_MODE="awesome-patched"
+POWERLEVEL9K_MODE="nerdfont-complete"
+POWERLEVEL9K_DISABLE_RPROMPT=true
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="▶ "
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
